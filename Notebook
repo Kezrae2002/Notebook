@@ -4,6 +4,11 @@
 #created a variable (seconds_per_hour) which I just used 60*60 to output the number of seconds there were in one hour.
 seconds_per_hour = 60*60 
 print(seconds_per_hour)
+>> 3600
+
+#I just used the variable seconds_per_hour and multiplied it by 24 due to there being 24 hours in a day and seconds_per_hour being the amount of sceonds in one hour. 
+seconds_per_day = seconds_per_hour * 24
+print(seconds_per_day)
 >> 86400
 
 seconds_per_day / seconds_per_hour
